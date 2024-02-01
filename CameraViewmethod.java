@@ -1,34 +1,40 @@
 public class CameraView {
+
     private String image;
     private Category category;
-    private int noOfObject;
-    private int colorGradiant;
+    private int noOfObjects;
+    private Colour colourGradient;
 
-    public void Setimage(String img){
-        this.image = img;
-    }
-    public String Getimage(){
-        return image;
-    }
-    public void Setcategory(Category cat){
-        this.category = cat;
-    }
-    public Category Getcategory(){      
-        return category;
-    }
-    public void Setobject(int no){
-        this.noOfObject = no;
-    } 
-    public int Getobject(){
-        return noOfObject;
-    }
-    public void SetcolorGradiant(int co){
-        this.colorGradiant = co;
-    }
-    public int GetcolorGradiant(){
-        return colorGradiant;
-    }
     
 
-}
+    public void setImage(String image) {
+        this.image = image;
+    }
 
+    public String getImage() {
+        return this.image;
+    }
+    public void setCategory(Category category) {
+        this.category = category;
+    }
+
+    public Category getCategory() {
+        return this.category;
+    }
+
+    public void setObjects(int noOfObjects) {
+        this.noOfObjects = noOfObjects;
+    }
+
+    public int getObjects() {
+        return this.noOfObjects;
+    }
+
+    public void setColour(Colour colourGradient) {
+        this.colourGradient = colourGradient;
+    }
+
+    public Colour getColour() {
+        return this.colourGradient;
+    }
+}
