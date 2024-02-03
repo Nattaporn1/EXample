@@ -4,11 +4,7 @@ public class Colour {
     private int green;
     private int blue;
 
-    public Colour() {
-        this.red = 0;
-        this.green = 0;
-        this.blue = 0;
-    }
+  
     public int getRed() {
         return red;
     }
